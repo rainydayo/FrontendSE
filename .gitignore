@@ -41,3 +41,7 @@ cypress.config.ts
 /__tests__
 jest.config.js
 jest.setup.js
+
+
+# local env files
+.env*.local
