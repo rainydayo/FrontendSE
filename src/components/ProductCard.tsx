@@ -16,7 +16,7 @@ import { Rating } from '@mui/material';
 export default async function productcard( {carName,imgSrc,tel,openningtime,priceRange,id} : 
     {carName : string, imgSrc: string, tel: string, openningtime: string,priceRange: number, id:string} ) {
     
-    const session = await getServerSession(authOptions);
+    //const session = await getServerSession(authOptions);
     //if (!session || !session.user.token) return null;
     const myReview:ReviewJson = await getReview(id) 
 
