@@ -45,7 +45,7 @@ export default async function TopMenu() {
                 </Link>
                 : <Link href="/api/auth/signin" >
                     <div className='flex items-center h-full px-2 text-sm'>
-                        <button className="block rounded-md bg-red-800 hover:bg-red-400 px-3 py-2 text-white ">
+                        <button data-test="login-btn" className="block rounded-md bg-red-800 hover:bg-red-400 px-3 py-2 text-white ">
                             Log In
                         </button>
                     </div>
