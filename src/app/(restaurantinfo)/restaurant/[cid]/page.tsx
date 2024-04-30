@@ -212,7 +212,7 @@ export default async function CarDetailPage({ params }: { params: { cid: string 
                                 </Link>
                             ))
                         }
-                    </div>:<div className="text-center">No Promotion Available</div>
+                    </div>:<div data-test="no-promotion-text" className="text-center">No Promotion Available</div>
                 }
 
             </div>

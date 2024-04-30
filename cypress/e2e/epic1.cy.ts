@@ -211,3 +211,41 @@ describe('epic 1 user story 1-1', () => {
         })
     })
   })
+
+  
+  describe('epic 1 user story 1-4', () => {
+    beforeEach(()=>{
+      //cy.visit('https://restaurantca.vercel.app')
+      cy.visit('http://localhost:3000')
+      cy.wait(6000)
+      cy.get('[data-test="login-btn"]').click()
+      cy.get('#input-email-for-credentials-provider').type("bunmee@gmail.com")
+      cy.get('#input-password-for-credentials-provider').type("admin123")
+      cy.get('.provider').find('button').click()
+      cy.wait(6000)
+    })
+
+    it('TC-15 All promotions page display all restaurant promotion', () => {
+        cy.get('.topmenu_itemcontainer__xd8j8').contains('Promotion').click()
+        cy.wait(4000)
+        cy.get('[data-test="promotion"]').should('exist')
+        cy.get('[data-test="promotion"]').should('have.length', 15)
+    })
+
+    it('TC-16 Restaurant which has promotion display promotion correctly', () => {
+        cy.get('.topmenu_itemcontainer__xd8j8').contains('Restaurant').click()
+        cy.wait(4000)
+        cy.get('[data-test="restaurant-link-Amezon"]').click()
+        cy.get('[data-test="promotion"]').should('exist')
+        cy.get('[data-test="promotion"]').should('have.length', 4)
+        cy.get('[data-test="no-promotion-text"]').should('not.exist')
+    })
+
+    it('TC-17 Restaurant which has no promotion display "No Promotion Available"', () => {
+        cy.get('.topmenu_itemcontainer__xd8j8').contains('Restaurant').click()
+        cy.wait(4000)
+        cy.get('[data-test="restaurant-link-Kot Shop"]').click()
+        cy.get('[data-test="promotion"]').should('not.exist')
+        cy.get('[data-test="no-promotion-text"]').should('exist')
+    })
+})
