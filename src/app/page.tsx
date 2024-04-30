@@ -9,6 +9,7 @@ import getRestaurantLimit from '@/libs/getRestaurantLimit';
 import SearchIcon from '@mui/icons-material/Search';
 import { redirect } from "next/navigation";
 import PromotionCatalog from '@/components/PromotionCatalog';
+import { revalidatePath } from 'next/cache';
 
 export default async function Home() {
   const cars:RestaurantJson = await getRestaurantLimit()
@@ -20,6 +21,9 @@ export default async function Home() {
 
     redirect(`/searchresults/${name}/1/5`)
   } 
+
+  revalidatePath('/restaurant')
+  revalidatePath('/search')
 
   return (
     <main>

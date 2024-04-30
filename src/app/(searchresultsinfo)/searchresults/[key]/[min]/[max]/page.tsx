@@ -4,6 +4,7 @@ import { Suspense } from "react"
 import { LinearProgress } from "@mui/material"
 import getSearch from "@/libs/getSearch"
 import { redirect } from "next/navigation";
+import { revalidatePath } from "next/cache"
 
 
 export default async function SearchDetailPage( {params}:{params:{key:string,min:string,max:string}}) {
@@ -15,6 +16,7 @@ export default async function SearchDetailPage( {params}:{params:{key:string,min
         const min = addUserForm.get("min")as string || " ";
         const max = addUserForm.get("max")as string || " ";
 
+        revalidatePath(`/searchresults/${name}/${min}/${max}`)
         redirect(`/searchresults/${name}/${min}/${max}`)
     } 
 

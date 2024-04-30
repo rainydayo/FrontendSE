@@ -4,6 +4,7 @@ export default async function getReview(id:string) {
         })
         
     if(!response.ok){
+        console.log("id: " + id);
         throw new Error("Failed to fetch review")
     }
     return await response.json()
