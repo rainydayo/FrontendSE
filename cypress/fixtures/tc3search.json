@@ -1,0 +1,47 @@
+{
+    "success": true,
+    "count": 1,
+    "data": [
+        {
+            "_id": "6602a65b09ff9bd2d702191f",
+            "name": "sukiteenoi",
+            "address": "Phayathai Road, Wang Mai, Pathum Wan, Bangkok 10330, Thailand",
+            "tel": "+66 (0)2 853 9000.",
+            "openningtime": "Daily from 11am to 5am",
+            "__v": 0,
+            "priceRange": 5,
+            "reservations": [
+                {
+                    "_id": "661fb237126f993e60308c75",
+                    "rsvDate": "2024-04-19T00:00:00.000Z",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "6602a65b09ff9bd2d702191f",
+                    "createdAt": "2024-04-17T11:27:51.323Z",
+                    "__v": 0
+                }
+            ],
+            "reviews": [
+                {
+                    "_id": "662108750f27dccea716210a",
+                    "rating": 5,
+                    "comment": "อร่อยมากผมกินทุกสัปดาห์เลย",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "6602a65b09ff9bd2d702191f",
+                    "__v": 0
+                }
+            ],
+            "restaurantPromos": [],
+            "menus": [
+                {
+                    "_id": "662e7398c706f4d9e5a1f204",
+                    "name": "buffet express all you can eat",
+                    "price": 399,
+                    "restaurant": "6602a65b09ff9bd2d702191f",
+                    "__v": 0,
+                    "id": "662e7398c706f4d9e5a1f204"
+                }
+            ],
+            "id": "6602a65b09ff9bd2d702191f"
+        }
+    ]
+}

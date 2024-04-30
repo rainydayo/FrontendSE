@@ -1,0 +1,106 @@
+{
+    "success": true,
+    "count": 10,
+    "data": [
+        {
+            "_id": "6601869ea0562ad64155dac9",
+            "name": "Darlene Zemlak",
+            "address": "Ashlyburgh",
+            "tel": "083-8775698",
+            "openningtime": "Tue-Fri : 00:00-23:00",
+            "__v": 0,
+            "priceRange": 2,
+            "id": "6601869ea0562ad64155dac9"
+        },
+        {
+            "_id": "66023f743087f578117dd62f",
+            "name": "Amezon",
+            "address": "Earth 789 Heights Way, Mountain City, MC 12345",
+            "tel": "097333123112",
+            "openningtime": "12:00",
+            "__v": 0,
+            "priceRange": 2,
+            "id": "66023f743087f578117dd62f"
+        },
+        {
+            "_id": "6602a7e309ff9bd2d702197c",
+            "name": "Gourmet Galaxy",
+            "address": "3 Star Cluster St, Cosmos, FL 33139",
+            "tel": "(305) 555-4742",
+            "openningtime": "Mon-Sun : 08:30-23:00",
+            "__v": 0,
+            "priceRange": 2,
+            "id": "6602a7e309ff9bd2d702197c"
+        },
+        {
+            "_id": "6602a88909ff9bd2d70219d7",
+            "name": "The Spice Odyssey",
+            "address": "211 Cinnamon Lane, Spiceville, NM 87501",
+            "tel": "(505) 555- Spice (77423)",
+            "openningtime": "Mon-Sun : 08:30 - 23:00",
+            "__v": 0,
+            "priceRange": 2,
+            "id": "6602a88909ff9bd2d70219d7"
+        },
+        {
+            "_id": "66023b25682edb1814b4bad7",
+            "name": "Kot Shop",
+            "address": "789 Heights Way, Mountain City, MC 12345",
+            "tel": "0973331231",
+            "openningtime": "12:00",
+            "__v": 0,
+            "priceRange": 3,
+            "id": "66023b25682edb1814b4bad7"
+        },
+        {
+            "_id": "6602a7c509ff9bd2d702196f",
+            "name": "Twilight Tapas",
+            "address": " 875 Crescent Moon Blvd, Nightfall, NV 89101",
+            "tel": " (702) 555-5621",
+            "openningtime": "Mon-Sun : 08:30-23:00",
+            "__v": 0,
+            "priceRange": 3,
+            "id": "6602a7c509ff9bd2d702196f"
+        },
+        {
+            "_id": "661d4cfa84a42435d6f57d27",
+            "name": "Gary Wyman III",
+            "address": "Camdenland",
+            "tel": "475-785-9075",
+            "openningtime": "Tue-Fri : 00:00-23:00",
+            "__v": 0,
+            "priceRange": 3,
+            "id": "661d4cfa84a42435d6f57d27"
+        },
+        {
+            "_id": "660186c4a0562ad64155dacf",
+            "name": "Raymond Stanton",
+            "address": "South Deshaunland",
+            "tel": "827-577-2858",
+            "openningtime": "Tue-Fri : 00:00-23:00",
+            "__v": 0,
+            "priceRange": 4,
+            "id": "660186c4a0562ad64155dacf"
+        },
+        {
+            "_id": "6602a77009ff9bd2d7021946",
+            "name": "The Cozy Cauldron",
+            "address": "Address: 1210 Witchwood Lane, Mystic Falls, MA 01841",
+            "tel": "(781) 555-3901",
+            "openningtime": "Mon-Sun : 08:30 - 23:00",
+            "__v": 0,
+            "priceRange": 4,
+            "id": "6602a77009ff9bd2d7021946"
+        },
+        {
+            "_id": "661e4cad4d3925360240d005",
+            "name": "Terry Crooks",
+            "address": "Hansenmouth",
+            "tel": "743-404-0988",
+            "openningtime": "Tue-Fri : 00:00-23:00",
+            "__v": 0,
+            "priceRange": 4,
+            "id": "661e4cad4d3925360240d005"
+        }
+    ]
+}

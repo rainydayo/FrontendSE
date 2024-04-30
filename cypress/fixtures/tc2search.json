@@ -1,0 +1,148 @@
+{
+    "success": true,
+    "count": 3,
+    "data": [
+        {
+            "_id": "661d4cfa84a42435d6f57d27",
+            "name": "Gary Wyman III",
+            "address": "Camdenland",
+            "tel": "475-785-9075",
+            "openningtime": "Tue-Fri : 00:00-23:00",
+            "__v": 0,
+            "priceRange": 3,
+            "reservations": [],
+            "reviews": [
+                {
+                    "_id": "662e7b08b91828f06df7e1d3",
+                    "rating": 1,
+                    "comment": "อร่อย",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "661d4cfa84a42435d6f57d27",
+                    "__v": 0
+                }
+            ],
+            "restaurantPromos": [],
+            "menus": [
+                {
+                    "_id": "662e7aedb91828f06df7e191",
+                    "name": "friedduck",
+                    "price": 45,
+                    "restaurant": "661d4cfa84a42435d6f57d27",
+                    "__v": 0,
+                    "id": "662e7aedb91828f06df7e191"
+                },
+                {
+                    "_id": "662e7afab91828f06df7e1af",
+                    "name": "friedcat",
+                    "price": 45,
+                    "restaurant": "661d4cfa84a42435d6f57d27",
+                    "__v": 0,
+                    "id": "662e7afab91828f06df7e1af"
+                },
+                {
+                    "_id": "662e7b1ab91828f06df7e1f7",
+                    "name": "soup",
+                    "price": 45,
+                    "restaurant": "661d4cfa84a42435d6f57d27",
+                    "__v": 0,
+                    "id": "662e7b1ab91828f06df7e1f7"
+                }
+            ],
+            "id": "661d4cfa84a42435d6f57d27"
+        },
+        {
+            "_id": "66023b25682edb1814b4bad7",
+            "name": "Kot Shop",
+            "address": "789 Heights Way, Mountain City, MC 12345",
+            "tel": "0973331231",
+            "openningtime": "12:00",
+            "__v": 0,
+            "priceRange": 3,
+            "reservations": [],
+            "reviews": [
+                {
+                    "_id": "6620e136ac1b40619ee80056",
+                    "rating": 1,
+                    "comment": "แย่มาก เจ้าของร้าน วันๆสูบแต่กัญชา ",
+                    "user": "6602de14155880405eeb37fb",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                },
+                {
+                    "_id": "6620e2376326c0281c793017",
+                    "rating": 1,
+                    "comment": "จริงครับ หลอนทั้งวัน แย่มากๆ",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                },
+                {
+                    "_id": "6620e6b990e348eae57be7a5",
+                    "rating": 5,
+                    "comment": "จริงครับ ยันหวาง",
+                    "user": "65e2ec207e0526de9fd23956",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                },
+                {
+                    "_id": "662105690f27dccea7161f16",
+                    "rating": 1,
+                    "comment": "รสชาติหมาไม่แดก",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                },
+                {
+                    "_id": "6621cb09b6edb994b840ceb8",
+                    "rating": 1,
+                    "comment": "เเซบ",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                },
+                {
+                    "_id": "6621cb09b6edb994b840cec4",
+                    "rating": 1,
+                    "comment": "เเซบ",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                },
+                {
+                    "_id": "6621cb16b6edb994b840ced0",
+                    "rating": 5,
+                    "comment": "เเซ่บ",
+                    "user": "66012ee75ed4786b663224b2",
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0
+                }
+            ],
+            "restaurantPromos": [],
+            "menus": [
+                {
+                    "_id": "66307a537e35f6fd94da0925",
+                    "name": "ยำเนื้อ",
+                    "price": 400,
+                    "restaurant": "66023b25682edb1814b4bad7",
+                    "__v": 0,
+                    "id": "66307a537e35f6fd94da0925"
+                }
+            ],
+            "id": "66023b25682edb1814b4bad7"
+        },
+        {
+            "_id": "6602a7c509ff9bd2d702196f",
+            "name": "Twilight Tapas",
+            "address": " 875 Crescent Moon Blvd, Nightfall, NV 89101",
+            "tel": " (702) 555-5621",
+            "openningtime": "Mon-Sun : 08:30-23:00",
+            "__v": 0,
+            "priceRange": 3,
+            "reservations": [],
+            "reviews": [],
+            "restaurantPromos": [],
+            "menus": [],
+            "id": "6602a7c509ff9bd2d702196f"
+        }
+    ]
+}

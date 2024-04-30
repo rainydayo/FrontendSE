@@ -54,7 +54,6 @@ export default async function productcard( {carName,imgSrc,tel,openningtime,pric
                 </div>
                 <div className='w-full h-[6%] p-[0px] px-5'>{openningtime}</div>
                 <div data-test="price-range" className='w-full h-[6%] p-[0px] px-5 text-green-700 font-bold'>{renderPrice(priceRange)}</div>
-
             </div>
          
         </InteractiveCard>

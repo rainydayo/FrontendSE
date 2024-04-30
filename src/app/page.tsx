@@ -20,10 +20,7 @@ export default async function Home() {
     const name = addUserForm.get("name")as string ||" ";
 
     redirect(`/searchresults/${name}/1/5`)
-  } 
-
-  revalidatePath('/restaurant')
-  revalidatePath('/search')
+  }
 
   return (
     <main>
@@ -47,7 +44,6 @@ export default async function Home() {
               <div className="flex justify-end"><Link href={"/promotion"} className="text-red-500 hover:text-blue-700 underline">view all</Link></div>
               <PromotionCatalog PromoJson={promos}/>
       </div>
-      
     </main>
   );
 }

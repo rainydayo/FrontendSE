@@ -4,7 +4,9 @@ export default async function getReservationID(id:string,token:string) {
         headers: {
             "Content-Type": "application/json",
             authorization: `Bearer ${token}`
-    }})
+        },
+        next: { revalidate: 3600 }
+})
         
     if(!response.ok){
         throw new Error("Failed to getReservation")

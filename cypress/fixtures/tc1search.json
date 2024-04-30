@@ -1,0 +1,16 @@
+{
+    "success": true,
+    "count": 1,
+    "data": [
+        {
+            "_id": "661e4cad4d3925360240d005",
+            "name": "Terry Crooks",
+            "address": "Hansenmouth",
+            "tel": "743-404-0988",
+            "openningtime": "Tue-Fri : 00:00-23:00",
+            "__v": 0,
+            "priceRange": 4,
+            "id": "661e4cad4d3925360240d005"
+        }
+    ]
+}
