@@ -17,8 +17,8 @@ export default async function productcard( {carName,imgSrc,tel,openningtime,pric
     {carName : string, imgSrc: string, tel: string, openningtime: string,priceRange: number, id:string} ) {
     
     const session = await getServerSession(authOptions);
-    if (!session || !session.user.token) return null;
-    const myReview:ReviewJson = await getReview(id,session.user.token) 
+    //if (!session || !session.user.token) return null;
+    const myReview:ReviewJson = await getReview(id) 
 
     const renderPrice = (price:number)=>{
         return '$'.repeat(price);

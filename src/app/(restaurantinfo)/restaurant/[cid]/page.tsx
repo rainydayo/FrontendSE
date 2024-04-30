@@ -24,7 +24,7 @@ export default async function CarDetailPage({ params }: { params: { cid: string 
     if (!session || !session.user.token) return null;
 
     const profile = await getUserProfile(session.user.token);
-    const myReview = await getReview(params.cid,session.user.token)
+    const myReview = await getReview(params.cid)
     
     const addReservation = async (addUserForm: FormData) => {
         "use server";
